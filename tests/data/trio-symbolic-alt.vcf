@@ -1,0 +1,12 @@
+##fileformat=VCFv4.1
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=A,Type=Integer,Description="AN">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Stop position of the interval">
+##contig=<ID=1>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	HG004	HG003	HG002
+1	60906167	.	N	<INS>	.	PASS	AC=2;AN=6	GT	0/1	0/1	0/0
+1	60907394	.	N	<DEL>	.	PASS	AC=4;AN=6	GT	0/1	1/1	0/1
+1	60907460	.	N	<DEL>	.	PASS	AC=2;AN=6	GT	0/1	0/1	0/0
+1	60907473	.	N	<DUP>	.	PASS	AC=2;AN=6	GT	0/1	0/1	0/0
+1	60909718	.	N	<INS:ME>	.	PASS	AC=2;AN=6	GT	0/1	0/1	0/0
